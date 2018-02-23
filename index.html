@@ -15,23 +15,77 @@
 <body>
   <header>
     <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
+      <div class="typo">
+        <div class="nav-wrapper deep-purple accent-1 ">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
   </header>
   <h1>Hello Materialize</h1>
   <main>
-      <img class="materialboxed" width="1300" src="assets/red_panda.jpg">
+    <img class="materialboxed" width="800" src="assets/red_panda.jpg">
+    <!---form-->
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+
+          <div class="input-field col s6">
+            <input id="First Name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+
+          <div class="input-field col s6">
+            <input id="Last Name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="username" type="text" class="validate">
+            <label for="username">Username</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <button class="deep-purple accent-1" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+
+        <!-- <div class="row">
+          <div class="col s12">
+            This is an inline input field:
+            <div class="input-field inline">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+          </div>
+        </div>
+         -->
+      </form>
+    </div>
   </main>
   <!-- Foot content -->
-  <footer class="page-footer">
+  <footer class="page-footer deep-purple accent-1">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
